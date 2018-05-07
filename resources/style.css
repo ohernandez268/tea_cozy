@@ -1,0 +1,161 @@
+* {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+
+header {
+  height: 75px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  background-color: black;
+  padding-bottom: 5px;
+  z-index: 10;
+}
+
+ nav a {
+  display: flex;
+  text-align: right;
+  text-decoration: underline;
+  float: right;
+  position: relative;
+  top:13px;
+  left: 905px;
+  padding-right: 20px;
+  height: 40px;
+}
+
+header, img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+header, nav, img {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 50px;
+  left: 115px;
+  right:65px;
+  height: 700px;
+  width: 1200px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  }
+
+.headings h2, h4 {
+  display: block;
+  height: 20px;
+  opacity: 1;
+  width: 1200px;
+  text-align: center;
+}
+
+/*--Store Section--*/
+
+.middle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 70px;
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  position: relative;
+  top: 50px;
+  }
+
+.titles h2, h4 {
+  margin: 0px;
+  padding:10px;
+  font-weight: bold;
+}
+
+.titles h4 {
+  position: relative;
+  right: 10px;
+}
+
+.item img {
+height: 200px;
+width: 300px;
+margin-right: 20px;
+}
+
+.item p {
+  margin-top: 10px;
+}
+
+/*--Bottom--*/
+
+.bottom {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 570px;
+  width: 1200px;
+  margin: auto;
+}
+
+ .box {
+ height: 250px;
+ width: 300px;
+ margin: auto;
+ opacity: 1;
+ flex-basis: 280;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ padding: 10px;
+ margin: 5px 20px;
+}
+
+ .pin {
+  display: block;
+  margin: 0;
+  background-color: transparent;
+  margin-bottom: 20;
+  position: relative;
+  top: 40px;
+  }
+
+
+.flexx-container .locations {
+  padding-top: 5px;
+  margin: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexx-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.bottom .flexx-container {
+  width: 1080px;
+  margin: auto;
+  position: relative;
+  top: 120px;
+}
+
+
+/*--footer--*/
+
+footer {
+  height: 200px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
